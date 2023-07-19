@@ -3,7 +3,6 @@ if (Test-Path $FolderName) {
 }
 else
 {
-  
     #PowerShell Create directory if not exists
     New-Item $FolderName -ItemType Directory
     Write-Host "Folder Created successfully"
